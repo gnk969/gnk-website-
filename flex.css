@@ -1,0 +1,309 @@
+body {
+    margin-bottom: 1000px;
+}
+
+
+p {
+    font-family: arial;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img-deo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.info {
+    width: 200px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.category {
+    margin-bottom: 3px;
+    color: gray;
+    font-size: 14px;
+}
+
+.price {
+    color: gray;
+}
+
+.follow-butt {
+    background-color: rgb(29, 155, 240);
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.follow-butt:hover {
+    opacity: 0.7;
+}
+
+.follow-butt:active {
+    opacity: 0.3 ;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(120, 97, 120);
+    height: 50px;
+    align-items: center;
+}
+
+.home-butt {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: arial;
+    margin-left: 10px;
+}
+
+.search-type {
+    border: none;
+    padding: 5px 15px 5px 15px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.download-butt {
+    background-color: rgb(120, 97, 120);
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    font-family: arial;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.nested {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+}
+
+
+.box-1 {
+    background-color: lightblue;
+    width: 100px;
+    
+}
+
+.box-2 {
+    background-color: lightpink;
+    width: 200px;
+}
+
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-mini {
+    background-color: black;
+    color: white;
+}
+
+
+/* flex exercise */
+
+.all-inbox {
+    color: gray;
+    font-family: arial;
+    font-size: 12px;
+}
+
+ .container {
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 10px 20px 10px 15px;
+    
+
+ }
+
+ .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+ }
+
+ .deo-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-top: 10px;
+   
+ }
+
+ .prof-info {
+    margin-left: 10px;
+    margin-top: 10px;
+    flex: 1;
+ }
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+
+ .section-info {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+ }
+
+ .title-email {
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 5px;
+ }
+
+.time {
+    color: gray;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.footer {
+    font-size: 14px;
+    color: gray;
+    font-family: arial;
+}
+
+/* nested exercise */
+
+.tweet {
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.profile-pic-column {
+    margin-right: 10px;
+}
+
+.deo-column {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.tweet-column {
+    flex: 1;
+}
+.tweet-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.tweet-author {
+    font-family: arial;
+    font-weight: bold;
+}
+
+.tweet-handler {
+    color: gray;
+    font-family: arial;
+    font-weight: 100;
+}
+
+.tweet-content {
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.video-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.thumbnail-column {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.video-info-column {
+    flex: 1;
+}
+
+.video-website {
+    color: rgb(111, 111, 111);
+    margin-bottom: 3px;
+  }
+  
+  .video-title {
+    line-height: 22px;
+  }
+
+
+.box-border {
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+    width: 500px;
+    height: 200px;
+}
+
+.first-box {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}

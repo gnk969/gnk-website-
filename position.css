@@ -1,0 +1,122 @@
+body {
+    margin-bottom: 10000px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.deo-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    
+}
+
+.name {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.add {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.msg {
+    border: none;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px  ;
+}
+
+
+
+.left-bar {
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.left-bar2 {
+    background-color: rgb(55, 55, 55);
+    position: fixed;
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.name1 {
+    font-weight: bold;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+
+}
+.create-new {
+    color: rgb(150, 150, 150);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.channel {
+    color:  rgb(150, 150, 150);
+    font-family: arial;
+    margin-top: 10px;
+    cursor: pointer;
+}
